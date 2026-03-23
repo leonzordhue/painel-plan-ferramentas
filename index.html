@@ -574,6 +574,32 @@
 </footer>
 
 <script>
+  // ╔══════════════════════════════════════════════════════════════════════════╗
+  // ║  AKE — AXIOMATIC KERNEL ENGINE · UNIFIED FIELD THEORY                   ║
+  // ║  Protocolo: UFT-1.0 · Hub de Navegação · Central de Planejamento       ║
+  // ╠══════════════════════════════════════════════════════════════════════════╣
+  // ║  @domain    Hub — Central de Planejamento de Obras SEINFRA/AM           ║
+  // ║  @author    Paulo Esteves Fernandes Neto — Chefe DMOB/SEINFRA-AM        ║
+  // ║  @version   1.0.0-ake                                                   ║
+  // ║  @build     GENESIS_RETROFIT                                            ║
+  // ║  @created   2026-03-24                                                  ║
+  // ║                                                                          ║
+  // ║  CLASSIFICAÇÃO AKE:                                                      ║
+  // ║    Perfil:        Hub (zero Library, zero Logic Core)                    ║
+  // ║    Camada 1–5:    Não aplicável — puro UI/navegação                     ║
+  // ║    Camada 6 (UI): Links para Planejamento de Obras + Briefings          ║
+  // ╚══════════════════════════════════════════════════════════════════════════╝
+
+  var AKE_BUILD_LOG = [{
+    build: "1.0.0-ake",
+    data: "2026-03-24T10:45:00-04:00",
+    autor: "Paulo Esteves Fernandes Neto",
+    ia_assistente: "Claude Opus 4.6",
+    tipo: "GENESIS_RETROFIT",
+    descricao: "Retrofit AKE no hub Central de Planejamento de Obras. Puro UI."
+  }];
+
+  // ── UI: Animação de Reveal ──
   const io = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
